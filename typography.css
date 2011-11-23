@@ -10,311 +10,313 @@
 
 
 body {
-	color: #000;
-	font-size: 0.70em;
-	line-height: 1.45;
+    color: #000;
+    font-size: 0.70em;
+    line-height: 1.45;
 }
 
 p {
-	text-align: left;
-	margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 blockquote {
-	line-height: 1.4;
-	font-size:1.1em;
-	font-style: italic;
-	text-align: center;
+    line-height: 1.4;
+    font-size:1.1em;
+    font-style: italic;
+    text-align: center;
 }
 
 blockquote cite, cite {
-	font-style: normal;
-	color: #555;
+    font-style: normal;
+    color: #555;
 }
 blockquote cite {
-	font-size: 0.9em;
-	padding: 5px 5px 0 5px;
-	display: block;
+    font-size: 0.9em;
+    padding: 5px 5px 0 5px;
+    display: block;
 }
 
 
 a {
-	color: #000;
-	text-decoration: none;
-	font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
 }
 a.undecorated , .undecorated a {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 
 a:hover {
-	text-decoration: underline;
-	color: #333;
+    text-decoration: underline;
+    color: #333;
 }
 
 a:active {
-	color: #666;
+    color: #666;
 }
 
 ul li, ol li {
-	list-style-type: square;
-	margin-left: 20px;
-	line-height: 1.5;
-	font-size: 0.95em;
+    list-style-type: square;
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 0.95em;
 }
 
 ul ul, ul ul ul, ol ol, ol ol ol {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 ul ul li, ol ol li {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 
 ul ul ul li , ol ol ol li{
-	list-style-type: circle;
+    list-style-type: circle;
 }
 
 ul li.caption , ol li.caption{
-	font-weight: bold;
-	list-style-type: none;
-	color: #000;
-	margin-left: 0;
-	line-height: 1.7;
-	font-size: 1em;
-	text-indent: 5px;
+    font-weight: bold;
+    list-style-type: none;
+    color: #000;
+    margin-left: 0;
+    line-height: 1.7;
+    font-size: 1em;
+    text-indent: 5px;
 }
 
 ul li.caption {
-	margin-top: 3px;
-	margin-bottom: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 ol li, ol ol li, ol ol ol li {
-	list-style-type: decimal;
+    list-style-type: decimal;
 }
 
 ul.inline li, div.inline-sub-ul ul li {
-	float: left;
-	margin-left: 0;
-	list-style-type: none;
-	margin-right: 10px;
+    float: left;
+    margin-left: 0;
+    list-style-type: none;
+    margin-right: 10px;
 }
 ul.inline li.right, div.inline-sub-ul ul li.right {
-	float: right;
-	margin-left: 10px;
-	margin-right: 0;
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 .no-list-style ul li, ul.no-list-style li, ol.no-list-style li, li.no-list-style {
-	list-style-type: none;
-	margin-left: 0px;
+    list-style-type: none;
+    margin-left: 0px;
 }
 
 .spaced-list ul li, ul.spaced-list li {
-	padding-bottom: 7px;
-	margin-bottom: 7px;
-	border-bottom-width: 1px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    border-bottom-width: 1px;
 }
 
 .spanlist span {
-	padding-left: 10px;
-	border-left-style: solid;
-	border-left-width: 1px;
-	margin-right: 10px;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin-right: 10px;
 }
 .spanlist span.first {
-	border-left-width: 0;
-	padding-left: 0;
-	margin-left: 0;
+    border-left-width: 0;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 sup, sub {
-	height: 0;
-	line-height: 1;
-	vertical-align: baseline;
-	position: relative;
-	font-size: 0.7em;
-	padding-left: 2px;
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+    font-size: 0.7em;
+    padding-left: 2px;
 }
 sup {
-	bottom: 1ex;
-	margin-left: 1px;
+    bottom: 1ex;
+    margin-left: 1px;
 }
 sub {
-	top: .5ex;
-	margin-left: 1px;
+    top: .5ex;
+    margin-left: 1px;
 }
 abbr, acronym {
-	border-bottom: 1px dotted #eee; 
+    border-bottom: 1px dotted #eee; 
 }
 abbr {
-	font-style: italic;
+    font-style: italic;
 }
 acronym {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 dl { 
 }
 dt { 
-	font-weight: bold;
+    font-weight: bold;
 }
 dd { 
-	margin-left: 1.5em;
-	font-size: 0.9em;
+    margin-left: 1.5em;
+    font-size: 0.9em;
 }
 
 pre {
-	white-space: pre;
-	overflow: hidden;
+    white-space: pre;
+    overflow: hidden;
 }
 
 
 
 h1, h2, h3, h4 {
-	text-align: left;
-	font-weight: normal;
-	text-transform: capitalize;
+    text-align: left;
+    font-weight: normal;
+    text-transform: capitalize;
 }
 
 h1 {
-	
-	font-size: 2em;
-	line-height: 1.4;
-	margin-bottom: 10px;
-	font-style: italic;
-	text-transform: none;
+
+    font-size: 2em;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-transform: none;
 }
 h1.huge {
-	font-size: 3.5em;
-	line-height: 1;
+    font-size: 3.5em;
+    line-height: 1;
 }
 
 h2 {
-	font-size: 1.6em;
-	margin-bottom: 10px;
+    font-size: 1.6em;
+    margin-bottom: 10px;
 }
 
 
 h3 {
-	font-size: 1.2em;
-	margin-bottom: 10px;
-	font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
 h4 {
-	font-size: 1.1em;
-	margin-bottom: 10px;
-	font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
 
 
 .sans-serif h1, .sans-serif h2, .sans-serif h3, .sans-serif h4 {
-	text-align: left;
-	font-weight: normal;
-	text-transform: none;
+    text-align: left;
+    font-weight: normal;
+    text-transform: none;
 }
 
 .sans-serif h1 {
-	font-size: 1.9em;
-	margin-bottom: 0;
-	font-style: normal;
-	margin-bottom: 5px;
+    font-size: 1.9em;
+    margin-bottom: 0;
+    font-style: normal;
+    margin-bottom: 5px;
 }
 
 .sans-serif h2 {
-	font-size: 1.6em;
-	margin-bottom: 0;
+    font-size: 1.6em;
+    margin-bottom: 0;
 }
 
 .sans-serif h3 {
-	font-size: 1.2em;
-	line-height: 1.5;
-	margin-bottom: 0;
-	font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-style: normal;
 }
 .sans-serif h4 , .sans-serif h5, .sans-serif h6 {
-	text-transform: uppercase;
-	font-size: 0.9em;
-	line-height: 1;
-	font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    line-height: 1;
+    font-style: normal;
 }
 
-
+.underlined {
+    text-decoration: underline;
+}
 .minimized {
-	font-size: 0.7em !important;
+    font-size: 0.7em !important;
 }
 .minimized,.uppercased {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 .maximized {
-	font-size: 1.3em;
-	text-transform: capitalize;
+    font-size: 1.3em;
+    text-transform: capitalize;
 }
 .unindented {
-	text-indent: 0;
+    text-indent: 0;
 }
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
 .ubold {
-	font-weight: normal;
+    font-weight: normal;
 }
 .italic {
-	font-style: italic;
+    font-style: italic;
 }
 .alignleft {
-	text-align: left;
+    text-align: left;
 }
 .alignright {
-	text-align: right;
+    text-align: right;
 }
 .aligncenter {
-	text-align: center;
+    text-align: center;
 }
 .alignjustify {
-	text-align: justify;
+    text-align: justify;
 }
 .smallcaps {
-	text-transform: lowercase;
-	font-variant: small-caps !important;
-	letter-spacing: 0.13em;
+    text-transform: lowercase;
+    font-variant: small-caps !important;
+    letter-spacing: 0.13em;
 }
 .text {
-	line-height: 2.1;
+    line-height: 2.1;
 }
 
 .serif p.dropcap:first-letter, .mixed p.dropcap:first-letter {
-	float: left;
-	font-size: 1.7em;
-	padding: 0.35em 0.2em 0 0;
-	line-height: 0.8;
-	font-weight: bold;
+    float: left;
+    font-size: 1.7em;
+    padding: 0.35em 0.2em 0 0;
+    line-height: 0.8;
+    font-weight: bold;
 }
 .serif p.dropcap:first-letter 
 {
-	font-style: italic;
+    font-style: italic;
 }
 .mixed p.dropcap:first-letter 
 {
-	font-style: normal;
+    font-style: normal;
 }
 body {
-	font-family: serif;
+    font-family: serif;
 }
 
 .mixed p, .sans-serif *, textarea, input, .mixed dd, .mixed cite, .mixed ul li, .mixed ol li {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 .mixed p.dropcap:first-letter, .serif {
-	font-family: serif;
+    font-family: serif;
 }
 
 
 pre,code,tt, .code {
-	font: 1em 'andale mono', 'lucida console', monospace;
-	line-height: 1.5;
+    font: 1em 'andale mono', 'lucida console', monospace;
+    line-height: 1.5;
 }
