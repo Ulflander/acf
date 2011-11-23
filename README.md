@@ -18,7 +18,7 @@ You'll find a demo at http://www.aenoa-systems.com/acf
 
 Xavier Laumonier / Aenoa Systems http://www.aenoa-systems.com
 
-Stéphanie Walter
+Stéphanie Walter http://www.inpixelitrust.fr/
 
 ## Licence
 

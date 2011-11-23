@@ -7,71 +7,34 @@
  *
  **********************************/
 
- /**
-  * This package provides some top and bottoms element for a classic aenoa site
-  */
+/**
+ * This package provides some top and bottoms element for a classic aenoa site
+*/
 #top {
-	height: 27px;
-	background: #242424 url("top-left.png") no-repeat top left;
-	text-indent: 80px;
-	padding-top: 8px;
+    height: 27px;
+    background: #242424 url("bg.png");
+    text-indent: 80px;
+    padding-top: 8px;
+	-moz-box-shadow: 0px 0px 5px #000;
+	 -webkit-box-shadow: 0px 0px 5px #000;
+	 box-shadow: 0px 0 5px #000;
 }
 
 #top * {
-	text-indent: 0;
-	color: #fff;
+    color: #fff;
 }
 #top a {
-	color: #000;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 1.2em;
-	font-weight: bold;
-	text-shadow: 1px 1px 4px #fff;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
-#top.top-css {
-	background: #242424 url("top-css.jpg") no-repeat top left;
-	text-indent: 60px;
-}
-#top.blue {
-	background: #242424 url("top-left-blue.png") no-repeat top left;
-}
-
-#top.blue, #top.top-css a {
-	color: #fff;
-}
-
-#top .right
-{ 
-	display: block;
-	float: right;
-	margin-right: 10px;
-}
 
 #bottom {
-	float: left;
-	width: 100%;
-	text-align: center;
-	text-transform:uppercase;
-	font-size: 0.8em;
-	margin-bottom: 20px;
-	margin-top: 10px;
-}
-.layout {
-	
-}
-.aenoa-block-1,.aenoa-block-2,.aenoa-block-3,.aenoa-block-4, .wide-banner
-{
-	background: #242424 url(wide-banner.png) no-repeat center left;
-	color: #fff;
-	text-shadow: 1px 1px 3px #000;
-}
-.aenoa-block-2 {
-	background-position:33% center;
-}
-.aenoa-block-3 {
-	background-position:66% center;
-}
-.aenoa-block-4 {
-	background-position:right center;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
