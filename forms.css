@@ -11,9 +11,6 @@
  * This package provides styles for form controls.
  */
 
-form {
-}
-
 
 fieldset {
 	border: 1px solid #eee;
@@ -247,7 +244,7 @@ h1.control, h2.control, h3.control {
 	margin-bottom: 10px;
 }
 
-input[type="text"].title, , div[data-behavior="as-input"].title {
+input[type="text"].title, div[data-behavior="as-input"].title {
 	padding: 6px 1.2em ;
 	width: 350px;
 	font-size: 1.2em ;
