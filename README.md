@@ -17,9 +17,12 @@ You'll find a demo at http://www.aenoa-systems.com/acf
 ## Credits
 
 Xavier Laumonier / Aenoa Systems http://www.aenoa-systems.com
+
 Stéphanie Walter
 
 ## Licence
+
+ACF is MIT licensed.
 
 Copyright (c) 2011 Aenoa Systems
 
