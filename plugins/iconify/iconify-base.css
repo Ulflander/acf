@@ -1,0 +1,96 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+/**
+ * This packages provides a few icons that you can use in your layouts.
+ * Icons are provides into two size: 32x32 pixels and 16x16 pixels.
+ */
+
+.icon16 {
+	text-indent: 24px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	background-image: url("run_16.png");
+	text-align: left;
+}
+
+.block.icon {
+	width: 50px;
+	height: 32px;
+	background-position: center center;
+}
+.block.icon16 {
+	width: 28px;
+	height: 24px;
+	background-position: center center;
+}
+.icon {
+	display: block;
+	text-indent: 40px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	min-height: 32px;
+}
+.p.icon {
+	text-indent: 40px;
+}
+h3.icon:first-line { line-height: 2.8; }
+h3.icon16 {text-indent: 26px;}
+
+.icon.for-text {
+	text-indent: 0;
+	padding-left: 40px !important;
+}
+input.icon {
+	height: 40px;
+}
+
+form.search input[type="text"], input[type="text"].search {
+	background-image: url("search_22.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	width: 120px;
+	height: 12px;
+}
+form.search input[type="submit"] {
+	height: 22px;
+	padding-top: 3px;
+}
+
+.icon16.current, .icon.current {
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px dotted #ccc;
+	cursor: default;
+	margin: 0;
+}
+.icon16.unlabeled, .icon.unlabeled {
+	text-indent: -1000px !important;
+	overflow: hidden;
+	width: 22px;
+}
+.icon.unlabeled {
+	width: 40px;
+}
+
+.icon.outbox {
+	height: 50px;
+	float:right;
+	
+}
+
+.beta {
+	background-image: url(beta.png);
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+}

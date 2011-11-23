@@ -1,0 +1,18 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+ /**
+  * This package will include all ACF files with a default layout of 1024
+  */
+@import "reset.css";
+@import "ie.css";
+@import "layout-1024.css";
+@import "typography.css";
+@import "forms.css";
+@import "tables.css";

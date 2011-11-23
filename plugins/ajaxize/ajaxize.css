@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+
+
+.control div.mid-right input {
+	width: 100px;
+}
+
+
+#ae-ajax-loading-ui-alert {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    top: 0;
+    z-index: 2000;
+    margin-left: -100px;
+    background-color: #fafafa;
+	height: 20px;
+	padding-top 6px;
+}
+
+
+div[data-behavior="as-input"]>div {
+	float: left;
+	background: #eee;
+	color: #333;
+	padding: 1px 2px 1px 1px;
+	margin: 0 1px 1px 0;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+.updating {
+	background-image: url(img/loading.gif);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div[data-behavior="as-input"] a {
+	overflow: hidden;
+	display: inline-block;
+	text-indent: -1000px;
+	background: url(img/rem-tag.png) no-repeat top left;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+div[data-behavior="as-input"] a:hover, 
+div[data-behavior="as-input"] a:active {
+	background: url(img/rem-tag-hover.png) no-repeat top left;
+}
+
+
+
+
+
+div[data-behavior="as-input"] {
+	height: 20px;
+	padding-left: 1px;
+	padding-top: 1px;
+	width: 340px;
+}
+div[data-behavior="as-input"][data-ac-multi="true"]{
+	height: auto;
+	min-height: 26px;
+	max-height: 250px;
+	overflow: auto;
+}
+
+
+.suggestions {
+	position: absolute;
+	overflow: auto;
+	width: 200px;
+	z-index: 50000;
+	margin: 0;
+	margin-top: 5px;
+	height: auto;
+	max-height: 150px;
+	padding: 0;
+	-moz-box-shadow: 0px 0px 15px #000;
+	 -webkit-box-shadow: 0px 0px 15px #000;
+	 box-shadow: 0px 0 15px #000;
+	 min-width: 150px;
+}
+.suggestions li {
+	padding: 3px;
+	color: #000 ;
+	text-shadow: 1px 1px 1px #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}
+.suggestions li.hoverable:hover, .suggestions li.hoverable.hover {
+	background-color: #ddd;
+}
+
+
+
+.data-popup {
+	position: absolute;
+	z-index: 10010;
+	margin: 0;
+	height: auto;
+	max-height: 500px;
+	padding: 10px;
+	max-width: 400px;
+	min-width: 100px;
+	width: auto;
+	overflow: hidden;
+}
+
+.data-popup-arrow {
+		display: block;
+		z-index: 10011;
+		position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+	
+}

@@ -1,0 +1,98 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+/**
+ * This package provides a dropdownmenu
+ */
+
+
+ul.ddmenu {
+	position: absolute;
+	width: 170px;
+	margin-left: -11px;
+}
+ul.ddmenu.on-top {
+	margin-top: -20px;
+}
+ul.ddmenu.on-right {
+	margin-left: -64px;
+}
+ul.ddmenu ul.ddmenu.on-right {
+	margin-left: -154px;
+}
+
+li:hover > ul.ddmenu
+{
+	display: block;
+}
+
+li.arrowed {
+	padding-right: 20px;
+	background-image: url(down.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+ul.ddmenu li.arrowed{
+	background-image: url(right.png);
+}
+li.arrowed:hover {
+	background-image: url(downh.png);
+}
+ul.ddmenu li.arrowed:hover{
+	background-image: url(righth.png);
+}
+ul.ddmenu li {
+	float: left;
+	width: 170px;
+}
+ul.ddmenu li.arrowed{
+	width: 150px;
+}
+ul.ddmenu li a{
+	padding: 5px 10px 5px 10px;
+	width: 150px;
+	float: left;
+}
+ul.ddmenu ul {
+	margin-left: 170px;
+	margin-top: -20px;
+}
+
+
+ul.ddmenu li.sep {
+	border-top-width: 1px;
+	border-top-style: solid;
+	height: 1px;
+	display: block;
+	background: transparent;
+}
+
+ul.ddmenu li.space {
+    clear: both;
+	width: 100%;
+	height: 10px;
+	display: block;
+	background: transparent;
+}
+
+
+ul.ddmenu li.static {
+	width: 135px;
+	padding: 0;
+}
+
+li ul.ddmenu {display: none;} 
+
+
+ul.ddmenu li.hexpanded {
+	display: block;
+	height: 100% !important;
+	float: left;
+}

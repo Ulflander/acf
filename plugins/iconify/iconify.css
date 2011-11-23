@@ -1,0 +1,16 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+/**
+ * This packages provides a few icons that you can use in your layouts.
+ * Icons are provides into two size: 32x32 pixels and 16x16 pixels.
+ */
+@import "iconify-base.css" ;
+@import "iconify-icons.css" ;

@@ -1,0 +1,275 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+/**
+ * This package provides some color sets applyable to any block.
+ * It provides too some border and shadow rules 
+ */
+
+
+.shadowed {
+	-moz-box-shadow: 0px 0px 5px #000;
+	 -webkit-box-shadow: 0px 0px 5px #000;
+	 box-shadow: 0px 0 5px #000;
+}
+.light-shadowed {
+	-moz-box-shadow: 0px 0px 10px #ccc;
+	 -webkit-box-shadow: 0px 0px 10px #ccc;
+	 box-shadow: 0px 0 10px #ccc;
+}
+.highlighted {
+	-moz-box-shadow: 0px 0px 10px #fff;
+	 -webkit-box-shadow: 0px 0px 10px #fff;
+	 box-shadow: 0px 0 10px #fff;
+}
+
+.b {
+	border-width: 1px;
+	border-style: solid;
+}
+.unb {
+	border:0;
+}
+
+.bordertop {
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.borderbottom {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.bordertop.thin, .borderbottom.thin {
+	border-width: 1px !important;
+}
+
+.borderleft {
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+.borderright {
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.dashed {
+	border-style: dashed;
+}
+
+.dotted {
+	border-style: dotted;
+}
+
+
+.marine-block , .marine {
+	background-color: #87D6BB;
+	border-color: #3DBD9A;
+}
+.marine-block hr {
+	background-color: #3DBD9A !important;
+}
+.marine-block a, .marine-block span, .marine-text {
+	color: #3DBD9A;
+}
+.marine-block ul.ddmenu a:hover {
+	background-color: #87D6BB;
+}
+
+
+.green-block, .green {
+	border-color: #00cc00;
+	background-color: #eeffee;
+}
+.green-block hr {
+	background-color: #00cc00 !important;
+}
+.green-block a, .green-block span, .green-text {
+	color: #00cc00;
+}
+.green-block ul.ddmenu a:hover {
+	background-color: #fafffa;
+}
+
+
+.grass-block, .green {
+	border-color: #009900;
+	background-color: #ddeedd;
+}
+.grass-block hr {
+	background-color: #009900 !important;
+}
+.grass-block a, .grass-block span, .grass-text {
+	color: #009900;
+}
+.grass-block ul.ddmenu a:hover {
+	background-color: #eeffee;
+}
+
+
+.yellow-block , .yellow {
+	background-color: #FEFCB2;
+	border-color: #FFFF0D;
+}
+.yellow-block hr {
+	background-color: #FFFF0D !important;
+}
+.yellow-block a, .yellow-block  span, .yellow-text {
+	color: #FFFF0D;
+}
+.yellow-block ul.ddmenu a:hover {
+	background-color: #FFFF0D;
+}
+
+
+.orange-block , .orange {
+	background-color: #ffefd8;
+	border-color: #f79534;
+}
+.orange-block hr {
+	background-color: #f79534 !important;
+}
+.orange-block a, .orange-block  span, .orange-text {
+	color: #f79534;
+}
+.orange-block ul.ddmenu a:hover {
+	background-color: #fffffa;
+}
+
+
+
+.rose-block , .rose {
+	background-color: #ffe8dd;;
+	border-color: #bb3e2d;;
+}
+.rose-block hr {
+	background-color: #bb3e2d !important;
+}
+.rose-block a, .rose-block  span, .rose-text {
+	color: #bb3e2d;
+}
+.rose-block ul.ddmenu a:hover {
+	background-color: #fffafa;
+}
+
+
+.red-block , .red {
+	background-color: #FF4F65;
+	border-color: #C30715;;
+}
+.red-block hr {
+	background-color: #C30715 !important;
+}
+.red-block a, .red-block  span, .red-text {
+	color: #C30715;
+}
+.red-block ul.ddmenu a:hover {
+	background-color: #fffafa;
+}
+
+
+
+.purple-block , .purple {
+	background-color: #FFCFFF;
+	border-color: #78439B;
+}
+.purple-block hr {
+	background-color: #78439B !important;
+}
+.purple-block a, .purple-block  span, .purple-text {
+	color: #78439B;
+}
+.purple-block ul.ddmenu a:hover {
+	background-color: #FFCFFF;
+}
+
+
+
+.ice-block, .ice {
+	background-color: #e3f2fc;
+	border-color: #339EDF;
+}
+.ice-block hr {
+	background-color: #339EDF !important;
+}
+.ice-block a, .ice-block span, .ice-text {
+	color: #339EDF;
+}
+.ice-block ul.ddmenu a:hover {
+	background-color: #fafaff;
+}
+
+
+.blue-block, .blue {
+	background-color: #71B2E6;
+	border-color: #0069B9;
+}
+.blue-block hr {
+	background-color: #0069B9 !important;
+}
+.blue-block a, .blue-block span, .blue-text {
+	color: #0069B9;
+}
+.blue-block ul.ddmenu a:hover {
+	background-color: #71B2E6;
+}
+
+
+
+.gray-block, .gray {
+	background-color: #f2f2f2;
+	border-color: #666;
+	color: #000;
+}
+a.gray:hover {
+	background-color: #eee !important;
+}
+.gray-block hr {
+	background-color: #666;
+}
+.gray-block a, .gray-block span, .gray-text {
+	color: #333;
+}
+.gray-block ul.ddmenu a:hover {
+	background-color: #f2f2f2;
+}
+
+
+.light-block, .light {
+	background-color: #fcfcfc;
+	border-color: #eee;
+}
+a.light:hover {
+	background-color: #f4f4f4 !important;
+}
+.light-block hr {
+	background-color: #eee;
+}
+
+
+.black-block, .black {
+	background-color: #1a1a1a;
+	border-color: #111;
+}
+
+
+.white-block, .white {
+	background-color: #fff;
+	border-color: #eee;
+}
+a.white:hover {
+	background-color: #f4f4f4;
+}
+.white-block hr {
+	background-color: #eee;
+}
+.white-text * {
+	color: #fff !important;
+}

@@ -1,0 +1,53 @@
+
+
+
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+
+/**
+ * This packages provides ACF capabilities for tables.
+ */
+
+caption {
+}
+
+table {
+	width: 100%;
+}
+
+table.spaced {
+}
+th {
+	text-align: left;
+	padding-bottom: 5px;
+}
+tr {
+}
+td,th {
+}
+tfoot {
+}
+td.numeric {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.table-options .icon16.rows-list {
+	background-image: url(img/table-rows.png);
+}
+
+.table-options .icon16.icons-list {
+	background-image: url(img/table-icons.png);
+}
+
+td img.table-image {
+	max-height: 20px;
+}

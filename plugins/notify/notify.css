@@ -1,0 +1,325 @@
+
+
+
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ *
+ * (c) Aenoa Systems 2010 - 2011
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+/**
+ * This package provides a set of notifications styles.
+ *
+*/
+/**
+ * Base class for a notification block
+*/
+.notify{
+    padding:5px;
+    border-style:solid;
+    border-width:1px;
+    background-position:5px 6px;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    text-indent:25px;
+    display:block;
+    clear:both;
+    margin-bottom:5px;
+    margin-top:5px;
+    /*border-radius*/
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    -webkit-box-shadow: 2px 2px 0px #fff inset;
+    -moz-box-shadow: 2px 2px 0px #fff inset;
+    box-shadow: 2px 2px 0px #fff inset;
+
+}
+
+
+.notify ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.notify.little {
+    padding: 8px 10px 5px 10px;
+    font-size: 0.85em;
+    min-height: 25px;
+}
+
+.notify h3 {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-shadow: 0px -1px 0px #E2E2E2;
+
+}
+
+.notify.alternate h3 {
+    text-shadow: none;
+}
+
+.notify a, .notify.little span {
+    font-weight: bold;
+}
+
+.notify.little a {
+    text-decoration: underline;
+}
+
+.notify.little.alternate .code{
+    background:transparent;
+}
+
+/**
+ * Block type: HELP
+*/
+.notify.help {
+    border-color: #CDE8F4;
+    background-color: #F2FAFF;
+    background-image: url("help.png");
+    color: #333;
+}
+
+
+.notify.help a, .notify.help span, .notify.help h3 {
+    color:#649CBA;
+}
+
+/**
+ * Block type: INFO
+*/
+.notify.info {
+    border-color: #DDDDDD;
+    background-color: #F9F9F9;
+    background-image: url("info.png");
+    color: #333;
+}
+
+.notify.info a, .notify.info span, .notify.info h3 {
+    color: #9E9E9E;
+}
+
+/**
+ * Block type: NOTICE
+*/
+.notify.notice {
+    border-color: #F2ECA9;
+    background-color: #FFFCE0;
+    background-image: url("notice.png");
+}
+
+.notify.notice a, .notify.notice span, .notify.notice h3 {
+    color: #E2B41D;
+}
+
+.notify.notice.alternate{
+    border-color: #F4DE35;
+    background: url("notice_alternate.png") no-repeat 5px 6px #f9e070; /* Old browsers */
+    background: url("notice_alternate.png") no-repeat 5px 6px,  -moz-linear-gradient(top,  #fff5af 1%, #f9e070 100%); /* FF3.6+ */
+    background: url("notice_alternate.png") no-repeat 5px 6px, -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fff5af), color-stop(100%,#f9e070)); /* Chrome,Safari4+ */
+    background: url("notice_alternate.png") no-repeat 5px 6px, -webkit-linear-gradient(top,  #fff5af 1%,#f9e070 100%); /* Chrome10+,Safari5.1+ */
+    background: url("notice_alternate.png") no-repeat 5px 6px, -o-linear-gradient(top,  #fff5af 1%,#f9e070 100%); /* Opera 11.10+ */
+    background:url("notice_alternate.png") no-repeat 5px 6px, -ms-linear-gradient(top,  #fff5af 1%,#f9e070 100%); /* IE10+ */
+    background: url("notice_alternate.png") no-repeat 5px 6px,  linear-gradient(top,  #fff5af 1%,#f9e070 100%); /* W3C */
+    -webkit-box-shadow: 1px 1px 0px #fff inset;
+    -moz-box-shadow: 1px 1px 0px #fff inset;
+    box-shadow: 1px 1px 0px #fff inset;
+    color:#493B00;
+}
+.notify.notice.alternate h3, .notify.notice.alternate span,.notify.notice.alternate a {
+    color:#B79200;
+}
+
+/**
+ * Block type: SUCCESS
+*/
+.notify.success {
+    border-color: #D0DD8B;
+    background-color: #F8FFD8;
+    background-image: url("success.png");
+}
+
+.notify.success a, .notify.success span, .notify.success h3 {
+    color: #86992C;
+}
+
+.notify.success.alternate{
+    border-color: #8CA33D;
+    background: url("success_alternate.png") no-repeat 5px 6px #97b54c; /* Old browsers */
+    background: url("success_alternate.png") no-repeat 5px 6px,  -moz-linear-gradient(top,  #c2d36b 0%, #97b54c 100%); /* FF3.6+ */
+    background: url("success_alternate.png") no-repeat 5px 6px,-webkit-gradient(linear, left top, left bottom, color-stop(0%,#c2d36b), color-stop(100%,#97b54c)); /* Chrome,Safari4+ */
+    background: url("success_alternate.png") no-repeat 5px 6px,-webkit-linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* Chrome10+,Safari5.1+ */
+    background: url("success_alternate.png") no-repeat 5px 6px,-o-linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* Opera 11.10+ */
+    background: url("success_alternate.png") no-repeat 5px 6px,-ms-linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* IE10+ */
+    background: url("success_alternate.png") no-repeat 5px 6px, linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* W3C */
+    -webkit-box-shadow: 1px 1px 0px #F8FFD8 inset;
+    -moz-box-shadow: 1px 1px 0px #F8FFD8 inset;
+    box-shadow: 1px 1px 0px #F8FFD8 inset;
+    color:#fff;
+}
+.notify.success.alternate h3, .notify.success.alternate span,.notify.success.alternate a {
+    color:#5D6D28;
+}
+
+
+
+/**
+ * Block type: WARNING
+*/
+.notify.warning {
+    border-color: #FFCA96;
+    background-color: #FFF5DD;
+    background-image: url("warning.png");
+}
+
+.notify.warning a, .notify.warning span, .notify.warning h3 {
+    color: #E0750B;
+}
+
+.notify.warning.alternate{
+    border-color: #F9992A;
+    background: url("warning_alternate.png") no-repeat 5px 6px #f79216; /* Old browsers */
+    background:  url("warning_alternate.png") no-repeat 5px 6px, -moz-linear-gradient(top,  #fcb858 0%, #f79216 100%); /* FF3.6+ */
+    background: url("warning_alternate.png") no-repeat 5px 6px,-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcb858), color-stop(100%,#f79216)); /* Chrome,Safari4+ */
+    background: url("warning_alternate.png") no-repeat 5px 6px,-webkit-linear-gradient(top,  #fcb858 0%,#f79216 100%); /* Chrome10+,Safari5.1+ */
+    background: url("warning_alternate.png") no-repeat 5px 6px,-o-linear-gradient(top,  #fcb858 0%,#f79216 100%); /* Opera 11.10+ */
+    background: url("warning_alternate.png") no-repeat 5px 6px,-ms-linear-gradient(top,  #fcb858 0%,#f79216 100%); /* IE10+ */
+    background: url("warning_alternate.png") no-repeat 5px 6px,linear-gradient(top,  #fcb858 0%,#f79216 100%); /* W3C */
+    -webkit-box-shadow: 1px 1px 0px #FFE1BA inset;
+    -moz-box-shadow: 1px 1px 0px #FFE1BA inset;
+    box-shadow: 1px 1px 0px #FFE1BA inset;
+    color:#fff;
+}
+.notify.warning.alternate h3, .notify.warning.alternate span,.notify.warning.alternate a {
+    color:#B76100;
+}
+
+
+/**
+ * Block type: ERROR
+*/
+.notify.error {
+    background-color:#FFECE2 ;
+    border-color: #EAB7A8;
+    background-image: url("error.png");
+}
+.notify.error a, .notify.error span, .notify.error h3 {
+    color: #A01306;
+}
+
+.notify.error.alternate{
+    border-color: #A8271E;
+    background: url("error_alternate.png") no-repeat 5px 6px #bc3a2f ; /* Old browsers */
+    background:  url("error_alternate.png") no-repeat 5px 6px, -moz-linear-gradient(top,  #f28576 0%, #bc3a2f 100%); /* FF3.6+ */
+    background: url("error_alternate.png") no-repeat 5px 6px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f28576), color-stop(100%,#bc3a2f)); /* Chrome,Safari4+ */
+    background: url("error_alternate.png") no-repeat 5px 6px, -webkit-linear-gradient(top,  #f28576 0%,#bc3a2f 100%); /* Chrome10+,Safari5.1+ */
+    background: url("error_alternate.png") no-repeat 5px 6px, -o-linear-gradient(top,  #f28576 0%,#bc3a2f 100%); /* Opera 11.10+ */
+    background: url("error_alternate.png") no-repeat 5px 6px, -ms-linear-gradient(top,  #f28576 0%,#bc3a2f 100%); /* IE10+ */
+    background: url("error_alternate.png") no-repeat 5px 6px, linear-gradient(top,  #f28576 0%,#bc3a2f 100%); /* W3C */
+    -webkit-box-shadow: 1px 1px 0px #F2C1BF inset;
+    -moz-box-shadow: 1px 1px 0px #F2C1BF inset;
+    box-shadow: 1px 1px 0px #F2C1BF inset;
+    color:#fff;
+}
+.notify.error.alternate h3, .notify.error.alternate span,.notify.error.alternate a {
+    color:#7F0E03;
+}
+
+/**
+ * Block type: CRITIC
+*/
+.notify.critic {
+    border-color: #C8AEE2;
+    background-color:#F6EDFF;
+    background-image: url("critic.png");
+}
+.notify.critic a, .notify.critic span, .notify.critic h3 {
+    color: #613987;
+}
+
+.notify.critic.alternate{
+    border-color: #552387;
+    background: url("critic_alternate.png") no-repeat 5px 6px #632b9b; /* Old browsers */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  -moz-linear-gradient(top,  #8f74ad 0%, #632b9b 100%); /* FF3.6+ */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8f74ad), color-stop(100%,#632b9b)); /* Chrome,Safari4+ */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  -webkit-linear-gradient(top,  #8f74ad 0%,#632b9b 100%); /* Chrome10+,Safari5.1+ */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  -o-linear-gradient(top,  #8f74ad 0%,#632b9b 100%); /* Opera 11.10+ */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  -ms-linear-gradient(top,  #8f74ad 0%,#632b9b 100%); /* IE10+ */
+    background: url("critic_alternate.png") no-repeat 5px 6px,  linear-gradient(top,  #8f74ad 0%,#632b9b 100%); /* W3C */
+    -webkit-box-shadow: 1px 1px 0px #DBB7FF inset;
+    -moz-box-shadow: 1px 1px 0px #DBB7FF inset;
+    box-shadow: 1px 1px 0px #DBB7FF inset;
+    color:#fff;
+}
+.notify.critic.alternate h3, .notify.critic.alternate span,.notify.critic.alternate a {
+    color:#2D005B;
+}
+
+/**
+ * Special for percentage blocks
+*/
+div.percent-block {
+    border: 1px solid #eee;
+    background: #FFF7EF;
+    width: 100%;
+    height: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    overflow: hidden;
+}
+
+div.percent-block span {
+    display: block;
+    width: 0;
+    height: 12px;
+    background: #aaa url("progress.gif");
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff !important;
+    text-shadow: 0px 0px 5px #f79534;
+}
+
+div.percent-block span.running {
+    background: #aaa url("progress.gif");
+    text-shadow: 0px 0px 5px #f79534;
+    -moz-box-shadow: 0px 0px 5px #f79534;
+    -webkit-box-shadow: 0px 0px 5px #f79534;
+    box-shadow: 0px 0px 5px #f79534;
+}
+
+div.percent-block span.done {
+    background: #aaa url("progress-done.png");
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/**
+ * Avoid the icon for big notifications
+*/
+.notify.avoid-icon {
+    background-image: none;
+    padding-left: 10px;
+}
+
+.notify.alternate {
+    background-image: url("grey.png");
+}
+
+.notify.no-bg {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

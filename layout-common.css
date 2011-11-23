@@ -1,0 +1,276 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ *
+ * (c) Aenoa Systems 2010 - 2011
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+.block-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-1, .col-1-5, .col-2, .col-3, .col-4, .col-5, .col-5-3, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16 {
+    float: left;
+    margin-right: 10px;
+	position: relative;
+}
+
+.col-last {
+    margin-right: 0;
+    float: right;
+}
+
+.b {
+    border: 1px solid #eee;
+}
+
+.p {
+    padding: 10px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.pleft {
+    padding-left: 10px;
+}
+
+.pright {
+    padding-right: 10px;
+}
+
+.unpadtop {
+    padding-top: 3px;
+    padding-bottom: 17px;
+}
+
+.unpadbottom {
+    padding-top: 17px;
+    padding-bottom: 3px;
+}
+
+.margedtop {
+    margin-top: 10px !important;
+}
+
+.margedbottom {
+    margin-bottom: 10px !important;
+}
+
+.margedleft {
+    margin-left: 10px !important;
+}
+
+.margedright {
+    margin-right: 10px !important;
+}
+
+.marged {
+    margin: 10px !important;
+}
+.marged-5 {
+    margin: 5px !important;
+}
+
+.unmarged {
+    margin: 0 !important;
+}
+
+.col-margin-min {
+    margin-right: 5px;
+}
+
+.right {
+    float: right;
+	position: relative;
+}
+
+.left {
+    float: left;
+	position: relative;
+}
+
+
+.expanded {
+    float: left;
+    width: 100%;
+}
+.expanded.p{
+	width: 98%;
+}
+
+/**
+ * Global / relative positionning
+ */
+.top {
+	position: absolute;
+	top: 0;
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+.right.bottom , .right.top {
+	right: 0;
+}
+.z-top {
+	z-index: 99999;
+}
+
+
+
+
+.line25 .lined {
+    display: block;
+    height: 25px;
+}
+.line35 .lined {
+    display: block;
+    height: 35px;
+}
+
+.line40 .lined {
+    display: block;
+    height: 40px;
+}
+.line50 .lined {
+    display: block;
+    height: 50px;
+}
+
+.line65 .lined {
+    height: 65px;
+}
+
+.line100 .lined {
+    display: block;
+    height: 100px;
+}
+
+.line100 .lined.p {
+    height: 80px;
+}
+
+.line125 .lined {
+    display: block;
+    height: 125px;
+}
+
+.line125 .lined.p {
+    height: 105px;
+}
+
+.line150 .lined {
+    display: block;
+    height: 150px;
+}
+
+.line150 .lined.p {
+    height: 130px;
+}
+
+.line200 .lined {
+    display: block;
+    height: 200px;
+}
+
+.line200 .lined.p {
+    height: 180px;
+}
+
+.line300 .lined {
+    display: block;
+    height: 300px;
+}
+
+.line300 .lined.p {
+    height: 280px;
+}
+
+.line400 .lined {
+    display: block;
+    height: 400px;
+}
+
+.line500 .lined {
+    height: 500px;
+}
+
+
+/*
+
+    Class: hr
+
+    Use this to create an horizontal ruler across a column.
+
+*/
+hr {
+    background: #eee;
+    color: #eee;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 10px 0;
+    border: none;
+}
+
+hr.hidden {
+	display: block;
+	height: 0;
+}
+
+hr.thin {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+hr.bold {
+    height: 5px;
+    background: #666;
+    margin-bottom: 15px;
+}
+
+/* Clearing floats without extra markup
+ Based on How To Clear Floats Without Structural Markup by PiE
+ [http://www.positioniseverything.net/easyclearing.html] */
+.clearfix:after, .container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.clearfix, .container {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.showgrid {
+    background: url(grid.png) repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+.masked {
+    overflow: hidden;
+}
+
+.img-constraint img, .img-constraint object {
+	max-width: 100%;
+}

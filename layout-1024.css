@@ -1,0 +1,54 @@
+/**********************************
+ * AENOA CSS FRAMEWORK
+ * http://www.aenoa-systems.com/acf
+ * 
+ * (c) Aenoa Systems 2010 - 2011
+ *
+ * Author : Xavier Laumonier
+ *
+ **********************************/
+
+@import "layout-common.css"	 ;
+
+
+/**
+ * This file provides a grid for the following metrics:
+ */
+
+.layout {
+	width: 982px;
+}
+
+.layout.b {
+	width: 986px;
+}
+.layout.p {
+	width: 982px;
+}
+
+
+
+
+/*
+ * Each column have a fixed size of 62 pixels (including margins), except the last one that have no margin.
+ */
+.col-1 {width:52px;} .col-1.b {width:50px;} .col-1.p {width:32px;} .col-1.b.p {width:30px;} .col-1.extended {width: 62px;}
+.col-1-5 {width:83px;} .col-1-5.b {width:81px;} .col-1-5.p {width:63px;} .col-1-5.b.p {width:61px;}
+.col-2 {width:114px;} .col-2.b {width:112px;} .col-2.p {width:94px;} .col-2.b.p {width:92px;}
+.col-3 {width:176px;} .col-3.b {width:174px;} .col-3.p {width:156px;} .col-3.b.p {width:154px;}
+.col-4 {width:238px;} .col-4.b {width:236px;} .col-4.p {width:218px;} .col-4.b.p {width:216px;}
+.col-5 {width:300px;} .col-5.b {width:298px;} .col-5.p {width:280px;} .col-5.b.p {width:278px;}
+.col-6 {width:362px;} .col-6.b {width:360px;} .col-6.p {width:342px;} .col-6.b.p {width:340px;}
+.col-7 {width:424px;} .col-7.b {width:422px;} .col-7.p {width:404px;} .col-7.b.p {width:402px;}
+.col-8 {width:486px;} .col-8.b {width:484px;} .col-8.p {width:466px;} .col-8.b.p {width:464px;}
+.col-9 {width:548px;} .col-9.b {width:546px;} .col-9.p {width:528px;} .col-9.b.p {width:526px;}
+.col-10 {width:610px;} .col-10.b {width:608px;} .col-10.p {width:590px;} .col-10.b.p {width:588px;}
+.col-11 {width:672px;} .col-11.b {width:670px;} .col-11.p {width:652px;} .col-11.b.p {width:650px;}
+.col-12 {width:734px;} .col-12.b {width:732px;} .col-12.p {width:714px;} .col-12.b.p {width:712px;}
+.col-13 {width:796px;} .col-13.b {width:794px;} .col-13.p {width:776px;} .col-13.b.p {width:774px;}
+.col-14 {width:858px;} .col-14.b {width:856px;} .col-14.p {width:838px;} .col-14.b.p {width:836px;}
+.col-15 {width:920px;} .col-15.b {width:918px;} .col-15.p {width:900px;} .col-15.b.p {width:898px;}
+.col-16 {width:982px;} .col-16.b {width:982px;} .col-16.p {width:962px;} .col-16.b.p {width:960px;}
+
+.col-5-3{width:321px}.col-5-3.b{width:319px}.col-5-3.p{width:301px}.col-5-3.b.p{width:299px}
+.col-5-3.col-last{width:320px}.col-5-3.col-last.b{width:318px}.col-5-3.col-last.p{width:300px}.col-5-3.col-last.b.p{width:298px}

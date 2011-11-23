@@ -1,0 +1,64 @@
+
+.cal-button {
+	border: 1px solid #eee;
+	background: #fafafa;
+	display: block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+.cal-button:hover {
+	background: #eee;
+}
+.cal-button.cal-next {
+	float: right;
+}
+.cal-calendar {
+	width: 200px;
+	display: block;
+	float: left;
+}
+.cal-calendar table {
+    border: 0;
+    margin: 10px 3px;
+}
+.cal-header input {
+	text-align: center;
+}
+.cal-calendar td {
+    background: #fff;
+    width: 5px;
+    height: 15px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #eee;
+}
+.cal-calendar td.cal-blank {
+	border:0;
+}
+
+.cal-calendar td.cal-sunday {
+    background: #fafafa;
+}
+.cal-calendar td.cal-cell:hover {
+    background: #eee;
+}
+.cal-calendar td.cal-current {
+	background: #ddd;
+}
+.cal-calendar td.cal-current:hover {
+	background: #ccc;
+}
+
+.cal-time .cal-hour input {
+    border-right: 0;
+    margin-right: 0;
+    text-align: right;
+}
+.cal-time .cal-minute input {
+    border-left: 0;
+    margin-left: 0;
+}
+
