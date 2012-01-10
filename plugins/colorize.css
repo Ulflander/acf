@@ -48,7 +48,7 @@
 }
 
 .bordertop.thin, .borderbottom.thin {
-	border-width: 1px !important;
+	border-width: 1px;
 }
 
 .borderleft {
@@ -74,7 +74,7 @@
 	border-color: #3DBD9A;
 }
 .marine-block hr {
-	background-color: #3DBD9A !important;
+	background-color: #3DBD9A;
 }
 .marine-block a, .marine-block span, .marine-text {
 	color: #3DBD9A;
@@ -89,7 +89,7 @@
 	background-color: #eeffee;
 }
 .green-block hr {
-	background-color: #00cc00 !important;
+	background-color: #00cc00;
 }
 .green-block a, .green-block span, .green-text {
 	color: #00cc00;
@@ -104,7 +104,7 @@
 	background-color: #ddeedd;
 }
 .grass-block hr {
-	background-color: #009900 !important;
+	background-color: #009900;
 }
 .grass-block a, .grass-block span, .grass-text {
 	color: #009900;
@@ -119,7 +119,7 @@
 	border-color: #FFFF0D;
 }
 .yellow-block hr {
-	background-color: #FFFF0D !important;
+	background-color: #FFFF0D;
 }
 .yellow-block a, .yellow-block  span, .yellow-text {
 	color: #FFFF0D;
@@ -134,7 +134,7 @@
 	border-color: #f79534;
 }
 .orange-block hr {
-	background-color: #f79534 !important;
+	background-color: #f79534;
 }
 .orange-block a, .orange-block  span, .orange-text {
 	color: #f79534;
@@ -150,7 +150,7 @@
 	border-color: #bb3e2d;;
 }
 .rose-block hr {
-	background-color: #bb3e2d !important;
+	background-color: #bb3e2d;
 }
 .rose-block a, .rose-block  span, .rose-text {
 	color: #bb3e2d;
@@ -165,7 +165,7 @@
 	border-color: #C30715;;
 }
 .red-block hr {
-	background-color: #C30715 !important;
+	background-color: #C30715;
 }
 .red-block a, .red-block  span, .red-text {
 	color: #C30715;
@@ -181,7 +181,7 @@
 	border-color: #78439B;
 }
 .purple-block hr {
-	background-color: #78439B !important;
+	background-color: #78439B;
 }
 .purple-block a, .purple-block  span, .purple-text {
 	color: #78439B;
@@ -197,7 +197,7 @@
 	border-color: #339EDF;
 }
 .ice-block hr {
-	background-color: #339EDF !important;
+	background-color: #339EDF;
 }
 .ice-block a, .ice-block span, .ice-text {
 	color: #339EDF;
@@ -212,7 +212,7 @@
 	border-color: #0069B9;
 }
 .blue-block hr {
-	background-color: #0069B9 !important;
+	background-color: #0069B9;
 }
 .blue-block a, .blue-block span, .blue-text {
 	color: #0069B9;
@@ -229,7 +229,7 @@
 	color: #000;
 }
 a.gray:hover {
-	background-color: #eee !important;
+	background-color: #eee;
 }
 .gray-block hr {
 	background-color: #666;
@@ -247,7 +247,7 @@ a.gray:hover {
 	border-color: #eee;
 }
 a.light:hover {
-	background-color: #f4f4f4 !important;
+	background-color: #f4f4f4;
 }
 .light-block hr {
 	background-color: #eee;
@@ -271,5 +271,5 @@ a.white:hover {
 	background-color: #eee;
 }
 .white-text * {
-	color: #fff !important;
+	color: #fff;
 }

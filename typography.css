@@ -11,7 +11,7 @@
 
 body {
     color: #000;
-    font-size: 0.70em;
+    font-size: 0.80em;
     line-height: 1.45;
 }
 
@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
 
 h1 {
 
-    font-size: 2em;
+    font-size: 2.1em;
     line-height: 1.4;
     margin-bottom: 10px;
     font-style: italic;
@@ -193,7 +193,7 @@ h1.huge {
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     margin-bottom: 10px;
 }
 
