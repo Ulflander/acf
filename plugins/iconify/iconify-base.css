@@ -95,3 +95,16 @@ form.search input[type="submit"] {
 	background-repeat: no-repeat;
 	text-indent: 30px;
 }
+a.icon, a.icon16 {
+    cursor: pointer;
+}
+
+h1.icon {
+    padding-top: 5px;
+    text-indent: 50px;
+}
+
+h2.icon {
+    padding-top: 5px;
+    text-indent: 45px;
+}

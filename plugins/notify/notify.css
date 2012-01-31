@@ -18,7 +18,7 @@
  * Base class for a notification block
 */
 .notify{
-    padding:5px;
+    padding: 3px 5px;
     border-style:solid;
     border-width:1px;
     background-position:5px 5px;
@@ -36,6 +36,7 @@
     -webkit-box-shadow: 2px 2px 0px #fff inset;
     -moz-box-shadow: 2px 2px 0px #fff inset;
     box-shadow: 2px 2px 0px #fff inset;
+    text-shadow: 1px 1px 0px #fff;
 
 }
 
@@ -46,15 +47,18 @@
 }
 
 .notify.little {
-    padding: 8px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
     font-size: 0.85em;
     min-height: 25px;
+}
+
+.notify.alternate {
+    text-shadow: none;
 }
 
 .notify h3 {
     font-weight: bold;
     font-size: 1.3em;
-    text-shadow: 0px -1px 0px #E2E2E2;
 
 }
 
@@ -129,9 +133,11 @@
     -moz-box-shadow: 1px 1px 0px #fff inset;
     box-shadow: 1px 1px 0px #fff inset;
     color:#493B00;
+    text-shadow: 1px 1px 0px #fff5af;
 }
 .notify.notice.alternate h3, .notify.notice.alternate span,.notify.notice.alternate a {
     color:#B79200;
+    text-shadow: 1px 1px 0px #fff5af;
 }
 
 /**
@@ -160,9 +166,11 @@
     -moz-box-shadow: 1px 1px 0px #F8FFD8 inset;
     box-shadow: 1px 1px 0px #F8FFD8 inset;
     color:#fff;
+    text-shadow: 1px 1px 0px #97b54c;
 }
 .notify.success.alternate h3, .notify.success.alternate span,.notify.success.alternate a {
     color:#5D6D28;
+    text-shadow: 1px 1px 0px #c2d36b;
 }
 
 
@@ -193,9 +201,11 @@
     -moz-box-shadow: 1px 1px 0px #FFE1BA inset;
     box-shadow: 1px 1px 0px #FFE1BA inset;
     color:#fff;
+    text-shadow: 1px 1px 0px #e59008;
 }
 .notify.warning.alternate h3, .notify.warning.alternate span,.notify.warning.alternate a {
     color:#B76100;
+    text-shadow: 1px 1px 0px #fcb858;
 }
 
 
@@ -224,9 +234,11 @@
     -moz-box-shadow: 1px 1px 0px #F2C1BF inset;
     box-shadow: 1px 1px 0px #F2C1BF inset;
     color:#fff;
+    text-shadow: 1px 1px 0px #bc3a2f;
 }
 .notify.error.alternate h3, .notify.error.alternate span,.notify.error.alternate a {
     color:#7F0E03;
+    text-shadow: 1px 1px 0px #f28576;
 }
 
 /**
@@ -254,9 +266,11 @@
     -moz-box-shadow: 1px 1px 0px #DBB7FF inset;
     box-shadow: 1px 1px 0px #DBB7FF inset;
     color:#fff;
+    text-shadow: 1px 1px 0px #632b9b;
 }
 .notify.critic.alternate h3, .notify.critic.alternate span,.notify.critic.alternate a {
     color:#2D005B;
+    text-shadow: 1px 1px 0px #8f74ad;
 }
 
 /**

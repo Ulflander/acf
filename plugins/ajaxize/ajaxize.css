@@ -104,22 +104,30 @@ div[data-behavior="as-input"][data-ac-multi="true"]{
 	z-index: 10010;
 	margin: 0;
 	height: auto;
-	max-height: 500px;
+	max-height: 300px;
 	padding: 10px;
 	max-width: 400px;
-	min-width: 100px;
+	min-width: 250px;
 	width: auto;
-	overflow: hidden;
+	overflow: auto;
+	background: #fff;
+	border: 2px solid #3B3B3D;
 }
 
 .data-popup-arrow {
-		display: block;
-		z-index: 10011;
-		position: absolute;
+	display: block;
+	z-index: 10011;
+	position: absolute;
         width: 0;
         height: 0;
+	border: 10px solid #3B3B3D;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-right: 10px solid transparent;
 	
+}
+
+.data-popup-arrow.arr-left {
+	border-right: 10px solid #3B3B3D;
+        border-left: 10px solid transparent;
 }

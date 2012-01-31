@@ -11,7 +11,7 @@
 
 body {
     color: #000;
-    font-size: 0.80em;
+    font-size: 0.85em;
     line-height: 1.45;
 }
 
@@ -205,9 +205,10 @@ h3 {
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1.15em;
     margin-bottom: 10px;
     font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -217,7 +218,6 @@ h4 {
     font-weight: normal;
     text-transform: none;
 }
-
 .sans-serif h1 {
     font-size: 1.9em;
     margin-bottom: 0;
@@ -289,21 +289,6 @@ h4 {
     line-height: 2.1;
 }
 
-.serif p.dropcap:first-letter, .mixed p.dropcap:first-letter {
-    float: left;
-    font-size: 1.7em;
-    padding: 0.35em 0.2em 0 0;
-    line-height: 0.8;
-    font-weight: bold;
-}
-.serif p.dropcap:first-letter 
-{
-    font-style: italic;
-}
-.mixed p.dropcap:first-letter 
-{
-    font-style: normal;
-}
 body {
     font-family: serif;
 }
@@ -311,10 +296,14 @@ body {
 .mixed p, .sans-serif *, textarea, input, .mixed dd, .mixed cite, .mixed ul li, .mixed ol li {
     font-family: sans-serif;
 }
-.mixed p.dropcap:first-letter, .serif {
+
+.serif, .serif * {
     font-family: serif;
 }
 
+.mixed h1, .mixed h2, .mixed h3, blockquote {
+    font-family: serif;
+}
 
 pre,code,tt, .code {
     font: 1em 'andale mono', 'lucida console', monospace;

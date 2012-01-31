@@ -35,6 +35,12 @@
 	-webkit-border-radius: 20px;
 }
 
+.r-30 {
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+
 
 .r-top {
 	border-bottom-right-radius: 0;

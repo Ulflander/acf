@@ -36,6 +36,7 @@
     -webkit-box-shadow: 1px 1px 0px #fff inset;
     -moz-box-shadow: 1px 1px 0px #fff inset;
     box-shadow: 1px 1px 0px #fff inset;
+    text-shadow: 1px 1px 0px #000;
 }
 
 .button:hover {
@@ -45,7 +46,7 @@
 }
 
 .button * {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 
@@ -104,13 +105,14 @@
 
 
 .button.red {
-    border-color: #A00000;
-    background:   -moz-linear-gradient(top,  #EA4B4B 0%, #A00000 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EA4B4B), color-stop(100%,#A00000)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #EA4B4B 0%,#A00000 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #EA4B4B 0%,#A00000 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #EA4B4B 0%,#A00000 100%); /* IE10+ */
-    background:  linear-gradient(top,  #EA4B4B 0%,#A00000 100%); /* W3C */
+    background: #A00000;
+    border: 1px solid #800;
+    border-bottom-color: #e00000;
+    border-right-color: #e00000;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    padding: 5px 10px;
 }
 
 
@@ -164,6 +166,7 @@
     background: -o-linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* IE10+ */
     background:  linear-gradient(top,  #c2d36b 0%,#97b54c 100%); /* W3C */
+    text-shadow: 1px 1px 0px #c2d36b;
 }
 .button.green:hover {
     background:   -moz-linear-gradient(top,  #97b54c 0%, #c2d36b 100%); /* FF3.6+ */
