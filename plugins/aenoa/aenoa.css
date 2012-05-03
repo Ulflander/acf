@@ -143,14 +143,9 @@ body.aenoabody {
 }
 
 .footer{
-    background:url(footer_bg.png);
-    border-top:#1e1e1e;
     width: 100%;
+    border-top: 1px solid #eee;
     padding:30px 0;
-    text-shadow: 1px 1px 0px #000;
-    -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.5);
-    -moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.5);
-    box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.5);
     clear: both;
     position: relative;
     z-index: 10;
@@ -158,14 +153,11 @@ body.aenoabody {
     margin-top: -3em;
 
 }
-.footer * , .footer a:hover {
-    color: #fff;
-}
+
 
 .footer hr {
     background: #000;
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #eee;
     height: 0;
     margin-bottom: 30px;
 }
